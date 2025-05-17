@@ -150,6 +150,6 @@ resource "kubernetes_service" "sts_lb" {
       target_port = 8080
     }
     type            = "LoadBalancer"
-    load_balancer_ip = azurerm_public_ip.app_lb.ip_address
+   # load_balancer_ip = azurerm_public_ip.app_lb.ip_address
   }
 }

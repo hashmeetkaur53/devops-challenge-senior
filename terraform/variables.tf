@@ -25,7 +25,7 @@ variable "node_count" {
 variable "docker_image" {
   type        = string
   description = "Docker image for the SimpleTimeService"
-  default     = "<your-dockerhub-username>/simpletimeservice:latest"
+  default     = "hashmeetkaur53/simpletimeservice:latest"
 }
 
 variable "subscription_id" {
